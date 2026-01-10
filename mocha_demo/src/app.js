@@ -1,1 +1,13 @@
-console.log("This is a demo test file.");
+
+const add = (a,b) => {
+  return a + b
+}
+
+const subtract = (a,b) => {
+  return a - b
+}
+
+module.exports = {
+  add,
+  subtract
+}

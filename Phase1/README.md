@@ -2,10 +2,11 @@
 
 ## 📚 Overview
 
-Phase 1 covers the foundational concepts of JavaScript testing with Mocha and Chai. This phase is divided into two main learning periods:
+Phase 1 covers the foundational concepts of JavaScript testing with Mocha and Chai. This phase is divided into three main learning periods:
 
 - **Day 3-4**: Exploring Chai Assertions
 - **Day 5-7**: Test Organization & Structure
+- **Day 8-10**: Test Hooks & Setup
 
 ## 📁 Structure
 
@@ -24,6 +25,12 @@ Phase1/
     ├── Section2_NestedDescribeBlocks/
     ├── Section3_NamingConventions/
     └── Section4_Challenge_MultiplyFunction/
+└── Day8-10_TestHooks/
+    ├── README.md
+    ├── Section1_BeforeAfter/
+    ├── Section2_BeforeEachAfterEach/
+    ├── Section3_TestDataSetup/
+    └── Section4_HooksBestPractices/
 ```
 
 ## 🎯 Day 3-4: Exploring Chai Assertions
@@ -82,6 +89,33 @@ npm run test:section4-day5-7          # Run Section 4 only
 
 **See [Day5-7_TestOrganization/README.md](./Day5-7_TestOrganization/README.md) for detailed documentation.**
 
+## 🎯 Day 8-10: Test Hooks & Setup
+
+### Learning Objectives
+- How to use `before()`, `after()`, `beforeEach()`, and `afterEach()` hooks
+- When and why to use each hook
+- How to set up test data efficiently
+- Best practices for test hooks
+
+### Sections
+
+1. **Section 1: before() and after()** - Hooks that run once before/after all tests
+2. **Section 2: beforeEach() and afterEach()** - Hooks that run before/after each test
+3. **Section 3: Test Data Setup** - Practical examples of setting up test data
+4. **Section 4: Hooks Best Practices** - Decision guide and best practices
+
+### Quick Start
+```bash
+cd Phase1
+npm run test:day8-10                    # Run all Day 8-10 tests
+npm run test:section1-day8-10          # Run Section 1 only
+npm run test:section2-day8-10          # Run Section 2 only
+npm run test:section3-day8-10          # Run Section 3 only
+npm run test:section4-day8-10          # Run Section 4 only
+```
+
+**See [Day8-10_TestHooks/README.md](./Day8-10_TestHooks/README.md) for detailed documentation.**
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -105,6 +139,7 @@ npm test
 ```bash
 npm run test:day3-4    # Day 3-4 tests only
 npm run test:day5-7    # Day 5-7 tests only
+npm run test:day8-10   # Day 8-10 tests only
 ```
 
 #### Run Individual Sections
@@ -129,7 +164,8 @@ npm run test:section4-day5-7  # Challenge - Multiply Function
 
 - **Day 3-4**: 53 tests covering Chai assertions
 - **Day 5-7**: 69 tests covering test organization
-- **Total**: 122 tests in Phase 1
+- **Day 8-10**: 67 tests covering test hooks
+- **Total**: 189 tests in Phase 1
 
 ## 📖 Learning Path
 
@@ -169,12 +205,17 @@ npm run test:section4-day5-7  # Challenge - Multiply Function
 - Test naming best practices
 - Test-Driven Development (TDD)
 
+### Day 8-10 Concepts
+- Test hooks: `before()`, `after()`, `beforeEach()`, `afterEach()`
+- Test data setup patterns
+- Hook execution order
+- Best practices for hooks
+
 ## 📝 Next Steps
 
 After completing Phase 1, you'll move on to:
 
-**Week 2: Intermediate Testing Concepts**
-- Day 8-10: Test Hooks & Setup (`before()`, `after()`, `beforeEach()`, `afterEach()`)
+**Week 2: Intermediate Testing Concepts (Continued)**
 - Day 11-12: Error Testing & Edge Cases
 - Day 13-14: Async Testing Introduction
 

@@ -1,0 +1,22 @@
+{
+  "name": "phase1-learning",
+  "version": "1.0.0",
+  "description": "Phase 1: JavaScript Testing Foundations - Day 3-4 Chai Assertions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha Day3-4_ChaiAssertions/**/*.spec.js",
+    "test:section1": "mocha Day3-4_ChaiAssertions/Section1_EqualAssertions/functions.spec.js",
+    "test:section2": "mocha Day3-4_ChaiAssertions/Section2_TypeChecking/functions.spec.js",
+    "test:section3": "mocha Day3-4_ChaiAssertions/Section3_ExistenceChecking/functions.spec.js",
+    "test:section4": "mocha Day3-4_ChaiAssertions/Section4_ComparisonAssertions/functions.spec.js",
+    "test:day3-4": "mocha Day3-4_ChaiAssertions/**/*.spec.js"
+  },
+  "keywords": ["mocha", "chai", "testing", "learning"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}

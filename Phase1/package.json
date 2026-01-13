@@ -1,15 +1,20 @@
 {
   "name": "phase1-learning",
   "version": "1.0.0",
-  "description": "Phase 1: JavaScript Testing Foundations - Day 3-4 Chai Assertions",
+  "description": "Phase 1: JavaScript Testing Foundations - Day 3-4 & Day 5-7",
   "main": "index.js",
   "scripts": {
-    "test": "mocha Day3-4_ChaiAssertions/**/*.spec.js",
+    "test": "mocha Day3-4_ChaiAssertions/**/*.spec.js Day5-7_TestOrganization/**/*.spec.js",
+    "test:day3-4": "mocha Day3-4_ChaiAssertions/**/*.spec.js",
     "test:section1": "mocha Day3-4_ChaiAssertions/Section1_EqualAssertions/functions.spec.js",
     "test:section2": "mocha Day3-4_ChaiAssertions/Section2_TypeChecking/functions.spec.js",
     "test:section3": "mocha Day3-4_ChaiAssertions/Section3_ExistenceChecking/functions.spec.js",
     "test:section4": "mocha Day3-4_ChaiAssertions/Section4_ComparisonAssertions/functions.spec.js",
-    "test:day3-4": "mocha Day3-4_ChaiAssertions/**/*.spec.js"
+    "test:day5-7": "mocha Day5-7_TestOrganization/**/*.spec.js",
+    "test:section1-day5-7": "mocha Day5-7_TestOrganization/Section1_MultipleDescribeBlocks/functions.spec.js",
+    "test:section2-day5-7": "mocha Day5-7_TestOrganization/Section2_NestedDescribeBlocks/functions.spec.js",
+    "test:section3-day5-7": "mocha Day5-7_TestOrganization/Section3_NamingConventions/functions.spec.js",
+    "test:section4-day5-7": "mocha Day5-7_TestOrganization/Section4_Challenge_MultiplyFunction/functions.spec.js"
   },
   "keywords": ["mocha", "chai", "testing", "learning"],
   "author": "",
